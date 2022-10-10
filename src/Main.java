@@ -2,9 +2,8 @@ public class Main {
 
 
     public static void main(String[] args) {
-
+/*
         System.out.println("Hello world!");
-
         byte myByteVariable = 100;
         String myString = " ceva ";
 
@@ -49,9 +48,29 @@ public class Main {
         System.out.println(i);
 
 
+*/
+//        float aaa = 15 / 2f;
+
+        int x = 2;
+        int y = 5;
+
+        int z = sum(x, y);
+        System.out.println(z);
+
+        float a = substract(x, y);
+        System.out.println(a);
 
     }
 
+    public static int sum(int first, int second) {
+        int result = first + second;
+        return result;
+    }
+
+    public static float substract(float first, float second){
+        float result = first - second;
+        return result;
+    }
 }
 
 
