@@ -51,26 +51,21 @@ public class Main {
 */
 //        float aaa = 15 / 2f;
 
+        Calculator calc = new Calculator();
+
         int x = 2;
         int y = 5;
 
-        int z = sum(x, y);
+
+        int z = calc.sum(x, y);
         System.out.println(z);
 
-        float a = substract(x, y);
+        float a = calc.substract(x, y);
         System.out.println(a);
 
     }
 
-    public static int sum(int first, int second) {
-        int result = first + second;
-        return result;
-    }
 
-    public static float substract(float first, float second){
-        float result = first - second;
-        return result;
-    }
 }
 
 
