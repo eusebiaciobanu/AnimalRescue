@@ -9,7 +9,7 @@ public class Calculator {
         return result;
     }
 
-    public  float divide(float first, float second){
+    public  float divide(float first, float second, String secund){
         float result = first / second;
         return result;
     }
