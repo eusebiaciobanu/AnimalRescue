@@ -29,4 +29,38 @@ public class LogicalOperations {
             return "Got to try some more";
         }
     }
+
+    public void printFromNumberTo100(int number){
+        for(int i = number;i<=100;i++){
+            System.out.println(i);
+        }
+    }
+    public float sumAndAverage(){
+        int sum = 0;
+        for(int i = 1; i <= 100; i++){
+            sum = sum + i;
+        }
+        return sum/100f;
+    }
+    public void printFromFirstToLast(int first, int last){
+        while(first <= last){
+            System.out.println(first);
+            first++;
+        }
+    }
+    //Modify the program to sum from 111 to 8899,
+    // and compute the average.
+    // Introduce an int variable called count to count the numbers
+    // in the specified range.
+
+    public float averageFromNumberToNumber(int first, int last){
+        float sum = 0;
+        int count = 0;
+        while(first <= last){
+            sum = sum + first;
+            first++;
+            count++;
+        }
+        return sum/count;
+    }
 }
