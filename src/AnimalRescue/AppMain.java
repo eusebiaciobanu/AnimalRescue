@@ -30,6 +30,35 @@ public class AppMain {
 
         rudolph.sleep();
 
+
+        BritishShortHair cleopatra = new BritishShortHair();
+        cleopatra.run();
+        cleopatra.eat();
+        cleopatra.speak();
+        cleopatra.sleep();
+
+        Pug azorel = new Pug();
+        azorel.run();
+        azorel.eat();
+        azorel.speak();
+        azorel.sleep();
+
+        Mouse jerry = new Mouse();
+        jerry.run();
+        jerry.eat();
+        jerry.speak();
+        jerry.sleep();
+
+        Duck lila = new Duck();
+        lila.run();
+        lila.eat();
+        lila.speak();
+        lila.sleep();
+
+
+
+
+
         AnimalFood animalFood = new AnimalFood();
         animalFood.setName("Banana");
         animalFood.setPrice(2.5f);
@@ -47,24 +76,6 @@ public class AppMain {
 
         System.out.println("--- RecreationActivity ---");
         System.out.println("Name: " + recreationActivity.getName());
-
-        Animal animal = new Animal();
-        animal.setName("Azorel");
-        animal.setAge(5);
-        animal.setHealthLevel(6);
-        animal.setHungryFeeling(2);
-        animal.setStateOfMind(10);
-        animal.setFavoriteFood(animalFood);
-        animal.setFavoriteRecreationActivity(recreationActivity);
-
-        System.out.println("--- Animal ---");
-        System.out.println("Name: " + animal.getName());
-        System.out.println("Age: " + animal.getAge());
-        System.out.println("Health Level: " + animal.getHealthLevel());
-        System.out.println("Hungry Feeling: " + animal.getHungryFeeling());
-        System.out.println("State of mind: " + animal.getStateOfMind());
-        System.out.println("Favorite food: " + animal.getFavoriteFood().getName());
-        System.out.println("FavoriteRecreationActivity: " + animal.getFavoriteRecreationActivity().getName());
 
         Adapter adapter = new Adapter();
         adapter.setName("test adapter");

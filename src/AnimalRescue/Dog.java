@@ -1,42 +1,29 @@
 package AnimalRescue;
 
-public class Dog {
+public class Dog extends Animal {
 
-    private String name;
-    private int age;
-    String breed;
-    String color;
     private double weight;
-    String gender;
 
-    public void setName(String name){
-        this.name = name;
-    }
-    public String getName(){
-        return name;
-    }
-    public void setAge(int age){
-        this.age = age;
-    }
-    public int getAge(){
-        return age;
-    }
     public void setWeight(double weight){
         this.weight = weight;
     }
+    @Override
     public double getWeight(){
         return weight;
     }
-
+    @Override
     public void eat(){
         System.out.println("Eating yum yum..");
     }
+    @Override
     public void sleep(){
         System.out.println("Snorringggg ZZzzZzZzz");
     }
+    @Override
     public void speak(){
         System.out.println("Woof woof miau!");
     }
+    @Override
     public void run(){
         System.out.println("running...");
     }

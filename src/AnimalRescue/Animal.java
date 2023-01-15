@@ -1,73 +1,73 @@
 package AnimalRescue;
 
-public class Animal {
-    private String name;
+public abstract class Animal {
+    protected String name;
+    protected int age;
 
-    private int age;
-
-    private int healthLevel;
-
-    private int hungryFeeling;
-
-    private int stateOfMind;
-
-    private AnimalFood favoriteFood;
-
-    private RecreationActivity favoriteRecreationActivity;
-
-    public String getName() {
-        return name;
+    public String getBreed() {
+        return breed;
     }
+
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+
+    private String breed;
+
+    public String getColor() {
+        return color;
+    }
+
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    private String color;
+    private double weight;
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    private String gender;
 
     public void setName(String name) {
         this.name = name;
     }
+    private void setName(){ this.name = name;}
 
-    public int getAge() {
-        return age;
+    public String getName() {
+        return name;
     }
 
     public void setAge(int age) {
         this.age = age;
     }
 
-    public int getHealthLevel() {
-        return healthLevel;
+    public int getAge() {
+        return age;
     }
 
-    public void setHealthLevel(int healthLevel) {
-        this.healthLevel = healthLevel;
+    public void setWeight(double weight) {
+        this.weight = weight;
     }
 
-    public int getHungryFeeling() {
-        return hungryFeeling;
+    public double getWeight() {
+        return weight;
     }
 
-    public void setHungryFeeling(int hungryFeeling) {
-        this.hungryFeeling = hungryFeeling;
-    }
+    public abstract void eat();
 
-    public int getStateOfMind() {
-        return stateOfMind;
-    }
+    public abstract void sleep();
 
-    public void setStateOfMind(int stateOfMind) {
-        this.stateOfMind = stateOfMind;
-    }
+    public abstract void speak();
 
-    public AnimalFood getFavoriteFood() {
-        return favoriteFood;
-    }
+    public abstract void run();
 
-    public void setFavoriteFood(AnimalFood favoriteFood) {
-        this.favoriteFood = favoriteFood;
-    }
 
-    public RecreationActivity getFavoriteRecreationActivity() {
-        return favoriteRecreationActivity;
-    }
-
-    public void setFavoriteRecreationActivity(RecreationActivity favoriteRecreationActivity) {
-        this.favoriteRecreationActivity = favoriteRecreationActivity;
-    }
 }
