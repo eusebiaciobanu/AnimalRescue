@@ -55,10 +55,6 @@ public class AppMain {
         lila.speak();
         lila.sleep();
 
-
-
-
-
         AnimalFood animalFood = new AnimalFood();
         animalFood.setName("Banana");
         animalFood.setPrice(2.5f);

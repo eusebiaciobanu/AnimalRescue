@@ -24,7 +24,6 @@ public abstract class Cat extends Animal{
     public void eat() {
         System.out.println("eats dry and wet food");
     }
-
     @Override
     public void run() {
         System.out.println("the cat runs");

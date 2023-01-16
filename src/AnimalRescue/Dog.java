@@ -23,10 +23,7 @@ public class Dog extends Animal {
     public void speak(){
         System.out.println("Woof woof miau!");
     }
-    @Override
-    public void run(){
-        System.out.println("running...");
-    }
+
     public void tailWagging(){
         System.out.println("Wagging the tail");
     }

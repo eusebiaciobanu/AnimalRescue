@@ -61,13 +61,18 @@ public abstract class Animal {
         return weight;
     }
 
-    public abstract void eat();
+    public void eat() {
+        System.out.println("the animal eats");
+   }
 
-    public abstract void sleep();
+    public void sleep() {
+       System.out.println ("the animal sleeps");
+    }
 
-    public abstract void speak();
-
-    public abstract void run();
-
-
+    public void speak() {
+        System.out.println("the animal speaks");
+    }
+    public void run() {
+        System.out.println("the animal runs");
+    }
 }
