@@ -2,24 +2,25 @@ package AnimalRescue;
 
 public class BritishShortHair extends Cat{
 
-    public void eat(){
-        System.out.println("Eats only dry food");
-    }
-    @Override
-    public void sleep() {System.out.println("BritishShortHair sleeps");
-    }
-    @Override
-    public void run() {System.out.println("BritishShortHair runs");
+   public void eat() {
+        System.out.println("The BritishShortHair eats");
     }
 
-    @Override
-    public void speak() {System.out.println("BritishShortHair speaks");
+   public void sleep() {
+        System.out.println("The BritishShortHair sleeps");
+    }
 
+    public void speak() {
+        System.out.println("The BritishShortHair speaks");
+    }
+
+   public void run() {
+        System.out.println("The BritishShortHair runs");
     }
 
     @Override
     public void purr() {
-        System.out.println("Purrrrr");
+
     }
 
 

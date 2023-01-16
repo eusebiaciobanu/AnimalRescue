@@ -60,19 +60,8 @@ public abstract class Animal {
     public double getWeight() {
         return weight;
     }
-
-    public void eat() {
-        System.out.println("the animal eats");
-   }
-
-    public void sleep() {
-       System.out.println ("the animal sleeps");
-    }
-
-    public void speak() {
-        System.out.println("the animal speaks");
-    }
-    public void run() {
-        System.out.println("the animal runs");
-    }
+    public abstract void eat();
+   public abstract void sleep();
+   public abstract void speak();
+   public abstract void run();
 }

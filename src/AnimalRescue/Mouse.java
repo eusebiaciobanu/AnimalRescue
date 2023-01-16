@@ -2,24 +2,19 @@ package AnimalRescue;
 
 public class Mouse extends Animal {
 
-
-    @Override
-    public void eat() {System.out.println("the mouse eat");
-
+   public void eat() {
+        System.out.println("The mouse eats");
     }
 
-    @Override
-    public void sleep() {System.out.println("the mouse sleeps");
-
+   public void sleep() {
+        System.out.println("The mouse sleeps");
     }
 
-    @Override
-    public void speak() {System.out.println("the mouse speak");
-
+   public void speak() {
+        System.out.println("The mouse speaks");
     }
 
-    @Override
-    public void run() {System.out.println("the mouse runs");
-
+   public void run() {
+        System.out.println("The mouse runs");
     }
 }

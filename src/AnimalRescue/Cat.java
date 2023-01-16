@@ -3,7 +3,6 @@ package AnimalRescue;
 public abstract class Cat extends Animal{
 
 
-
     public void tailWagging() {
         System.out.println("Wagging the tail");
     }
@@ -20,21 +19,17 @@ public abstract class Cat extends Animal{
         return age;
     }
 
-    @Override
-    public void eat() {
-        System.out.println("eats dry and wet food");
+   public void eat(){
+        System.out.println("The cat eats");
     }
-    @Override
-    public void run() {
-        System.out.println("the cat runs");
+   public void sleep(){
+        System.out.println("The cat sleeps");
     }
-    @Override
-    public void sleep(){
-        System.out.println("the cat sleeps");
+   public void speak(){
+        System.out.println("The cat speaks");
     }
-    @Override
-    public void speak(){
-        System.out.println("meow");
+   public void run(){
+        System.out.println("The cat runs");
     }
     public abstract void purr();
 

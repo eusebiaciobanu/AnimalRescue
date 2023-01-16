@@ -1,27 +1,24 @@
 package AnimalRescue;
 
 public class Duck extends Animal {
+
     public void tailWagging() {
         System.out.println("Wagging the tail");
     }
 
-    @Override
-    public void eat() {System.out.println("the duck runs");
-
+  public void eat() {
+        System.out.println("The duck eats");
     }
 
-    @Override
-    public void sleep() {System.out.println("the duck sleeps");
-
+   public void sleep() {
+        System.out.println("The duck sleeps");
     }
 
-    @Override
-    public void speak() {
-        System.out.println("macmac");
+   public void speak() {
+        System.out.println("The duck speaks");
     }
 
-    @Override
-    public void run() {System.out.println("the duck runs");
-
+   public void run() {
+        System.out.println("The duck runs");
     }
 }
